@@ -1,0 +1,95 @@
+*{
+	box-sizing:border-box;
+}
+}
+body{
+	margin: 0;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-image:linear-gradient(#4db1fd,white);
+    padding: 30px;
+    overflow: hidden;
+}
+.door{
+	overflow:hidden;
+	width:360px;
+	height:300px;
+	position:absolute;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	top:200px;
+}
+.window{
+	width:20%;
+	position:absolute;
+    top:80%;
+}
+.title{
+	text-align:center;
+	font-size:30pt;
+	margin:0 auto;
+	color:white;
+}
+#cloud{
+	position:absolute;
+	z-index:2;
+}
+#sky{
+	position:absolute;
+	top:0;
+}
+.bird{
+	width:30%;
+	height:auto;
+	position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.shadow{
+	position:absolute;
+	left:10%;
+	top:40%;
+}
+.moi{
+	max-width:10%;
+	height:auto;
+	position:absolute;
+	left:50%;
+	top:60%;
+}
+#textt{
+	width:200px;
+	height:30%;
+	font-family:'GT Sectra';
+	padding:10px;
+	font-size:15pt;
+	color:black;
+	background-color:#FDCCCC;
+	border: 2px solid black;
+	overflow:hidden;
+	position:fixed;
+	right:10%;
+	top:400px;
+}
+.street{
+	width:20%;
+	height:auto;
+	position:absolute;
+	right:5%;
+	bottom:-600px;
+}
+
+
+#nuit{
+	display:none;
+}
+.jour{
+	font-family:'Ogg';
+	width:80%;
+	height:auto;
+}
